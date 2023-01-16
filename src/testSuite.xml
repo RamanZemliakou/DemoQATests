@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <parameter name="userName" value="Sam"></parameter>
+    <test name="01_First Test" >
+        <classes>
+            <class name = "TextBoxTest" />
+        </classes>
+    </test>
+    <test name = "Second Test">
+        <classes>
+            <class name = "testngtests.Class2"/>
+            <class name = "testngtests.Class3"/>
+        </classes>
+    </test>
+</suite>
