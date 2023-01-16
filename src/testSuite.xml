@@ -6,12 +6,12 @@
             <class name = "TextBoxTest" />
         </classes>
     </test>
-    <test name = "Second Test">
+    <test name = "02_Second Test">
         <classes>
             <class name = "RadiobuttonTest"/>
         </classes>
     </test>
-    <test name = "Third Test">
+    <test name = "03_Third Test">
         <classes>
             <class name = "WebTablesTest"/>
         </classes>
