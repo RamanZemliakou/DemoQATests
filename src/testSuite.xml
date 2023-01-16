@@ -8,8 +8,12 @@
     </test>
     <test name = "Second Test">
         <classes>
-            <class name = "testngtests.Class2"/>
-            <class name = "testngtests.Class3"/>
+            <class name = "RadiobuttonTest"/>
+        </classes>
+    </test>
+    <test name = "Third Test">
+        <classes>
+            <class name = "WebTablesTest"/>
         </classes>
     </test>
 </suite>
