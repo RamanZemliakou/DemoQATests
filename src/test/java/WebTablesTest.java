@@ -16,6 +16,7 @@ public class WebTablesTest {
     String salaryFieldLocator = "//*[@id='salary']";
     String departmentFieldLocator = "//*[@id='department']";
     String submitButtonLocator = "//*[@id='submit']";
+    String lastRowLocator = "(//div[@role='row' and not(contains(@class, '-padRow'))])[last()]";
 
     String firstName = "User";
     String lastName = "New";
@@ -47,6 +48,11 @@ public class WebTablesTest {
         driver.findElement(By.xpath(salaryFieldLocator)).sendKeys(salary);
         driver.findElement(By.xpath(departmentFieldLocator)).sendKeys(department);
         driver.findElement(By.xpath(submitButtonLocator)).click();
+
+
+        //(//div[@role='row' and not(contains(@class, '-padRow'))])[last()]/div1 select last element
+        //enum with table attributes
+        //private method with enum to build locator
 
     }
 }
